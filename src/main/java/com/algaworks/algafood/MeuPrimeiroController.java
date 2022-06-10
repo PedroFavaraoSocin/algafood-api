@@ -28,12 +28,5 @@ public class MeuPrimeiroController {
 		
 		return "Hello!";
 	}
-
-	@GetMapping("/nome")
-	@ResponseBody
-	public String nome() {
-		return "Pedro!";
-	}
-	
 	
 }
