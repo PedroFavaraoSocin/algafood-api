@@ -25,6 +25,7 @@ public class MeuPrimeiroController {
 		Cliente joao = new Cliente("João", "joão@xyz.com.br", "8998675849");
 		
 		ativacaoClienteService.ativar(joao);
+		System.out.println("Hello");
 		
 		return "Hello!";
 	}
