@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.algaworks.algafood.di.modelo.Cliente;
 import com.algaworks.algafood.di.service.AtivacaoClienteService;
 
+
 @Controller
 public class MeuPrimeiroController {
 	
@@ -27,5 +28,12 @@ public class MeuPrimeiroController {
 		
 		return "Hello!";
 	}
+
+	@GetMapping("/nome")
+	@ResponseBody
+	public String nome() {
+		return "Pedro!";
+	}
+	
 	
 }
