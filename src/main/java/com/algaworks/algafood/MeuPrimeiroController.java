@@ -26,7 +26,7 @@ public class MeuPrimeiroController {
 		
 		ativacaoClienteService.ativar(joao);
 		
-		return "Hellooo!";
+		return "Hello!";
 	}
 	
 }
