@@ -19,7 +19,7 @@ public class MeuPrimeiroController {
 		System.out.println("MeuPrimeiroController: " + ativacaoClienteService);
 	}
 
-	@GetMapping("/hello")
+	@GetMapping("/helloo")
 	@ResponseBody
 	public String hello() {
 		Cliente joao = new Cliente("João", "joão@xyz.com.br", "8998675849");
